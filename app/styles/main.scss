@@ -1,0 +1,29 @@
+$global-width: 800px;
+$global-flexbox: true !global;
+
+// bower:scss
+@import "bower_components/foundation-sites/scss/foundation.scss";
+// endbower
+
+@include foundation-global-styles;
+@include foundation-flex-grid;
+@include foundation-typography;
+@include foundation-forms;
+@include foundation-button;
+@include foundation-callout;
+@include foundation-table;
+@include foundation-flex-classes;
+
+html,
+body.home {
+    height: 100%;
+}
+body.home .row {
+    height: 100%;
+}
+
+body.results {
+    .row {
+        margin-top: rem-calc(50);
+    }
+}

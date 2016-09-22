@@ -1,0 +1,23 @@
+{
+  "name": "yellow7-backend-test",
+  "authors": [
+    "Corbin Hesse <corbin@yellow7.com>",
+    "Kamal Albatarni <kamalalbatarny@gmail.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "^6.2.3"
+  },
+
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "./scss/foundation.scss"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
